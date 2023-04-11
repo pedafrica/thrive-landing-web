@@ -1,0 +1,52 @@
+
+/* Set primary color */
+:root {
+    --primary-color: #ff0000;
+}
+
+/* Header styles */
+header {
+    background-color: white;
+    position: relative;
+}
+.navbar-brand img {
+    height: 50px;
+}
+.navbar-nav .nav-link {
+    color: black;
+    margin-right: 10px;
+}
+.navbar-toggler-icon {
+    background-image: url('menu-icon.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 16px;
+    width: 16px;
+}
+
+/* Hero styles */
+.hero {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+.hero a.btn {
+    background-color: white;
+    color: var(--primary-color);
+    border: none;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .navbar-brand img {
+        height: 40px;
+    }
+    .navbar-nav .nav-link {
+        margin-right: 0;
+    }
+}
